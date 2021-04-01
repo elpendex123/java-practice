@@ -1,6 +1,6 @@
 package com.coello;
 
-public class Main {
+public class SonIguales {
 
     public static void main(String[] args) {
         MyList l1 = new MyList("List #1");
@@ -42,5 +42,3 @@ public class Main {
             System.out.println("Different");
     }
 }
-
-
