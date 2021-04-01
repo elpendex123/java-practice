@@ -38,6 +38,14 @@ public class MyList {
         myList.add(value);
     }
 
+    public void concatenateLists(MyList list1, MyList list2)
+    {
+        ArrayList<Integer> bothLists = new ArrayList<>();
+        bothLists.addAll(list1.getMyList());
+        bothLists.addAll(list2.getMyList());
+        this.setMyList(bothLists);
+    }
+
     @Override
     public String toString() {
         return "\nMyList {listName = " + listName + ", myList = " + myList +  "}";
